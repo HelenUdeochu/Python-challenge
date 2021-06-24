@@ -1,0 +1,7 @@
+var1 = "I WAS YELLING"
+var2 = "i was whispering"
+var3 = "I was doing neither"
+
+User = input("Enter what you were doing:")
+
+print(f'This user was {User}')
