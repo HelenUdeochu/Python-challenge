@@ -1,0 +1,19 @@
+add = 3 + 3
+
+print(add) 
+
+subtract = 5 - 6
+
+print(subtract)
+
+multiply = 10 * 100
+
+print(multiply)
+
+divide = 15 // 3
+
+print(divide) 
+
+total = (6 + 2 * 1000 // 5)
+
+print(f'{add} + {subtract} * {multiply} // {divide} = {total}')
