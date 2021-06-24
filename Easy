@@ -1,0 +1,5 @@
+OLD = 'Johnathan'
+
+NEW = 'Adaeze'
+
+print(f'The name {OLD} is longer than {NEW} by 3 characters')
