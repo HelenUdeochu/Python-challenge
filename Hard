@@ -1,15 +1,26 @@
-add = 3 + 3
+x = 31
+y = 4
 
-print(add) 
+def add():
+  addition = x + y 
+  print(f" {x} plus {y} equales {addition}")
 
-subtract = 5 - 6
+add()
 
-print(subtract)
+def substract()
+ substraction = x - y
+ print(f" {x} minus {y} equales {substraction}")
 
-multiply = 10 * 100
+substract()
 
-print(multiply)
+def multiply()
+ multiplication = x * y
+ print(f"{x} times {y} equales {multiplication}")
 
-divide = 15 // 3
+multiply()
 
-print(divide) 
+def divide()
+ division = x / y 
+ print(f" {x} divided by {y} equales {division}")
+
+divide()
