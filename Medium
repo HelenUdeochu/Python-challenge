@@ -1,7 +1,22 @@
-var1 = "I WAS YELLING"
-var2 = "i was whispering"
-var3 = "I was doing neither"
+user = "What were you doing?"
 
-User = input("Enter what you were doing:")
+print(user)
 
-print(f'This user was {User}')
+var1 = "H for SHOUTING"
+var2 = "h for whispering"
+var3 = "Hh for Talking normal"
+
+
+print(var1)
+print(var2)
+print(var3)
+
+
+userword = input("Type here: ")
+
+if (userword.isupper() == True):
+  print("SHOUTING")
+elif (userword.islower() == True):
+  print("whispering")
+else:
+  print("Talking normal")
